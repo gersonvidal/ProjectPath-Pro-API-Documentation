@@ -14,19 +14,22 @@ nav:
             - Projects:
                 - Overview: api/endpoints/projects/overview.md
                 - Request and Response Examples: api/endpoints/projects/examples.md
-                - API Docs: api/endpoints/projects/docs.md
             - Activities:
                 - Overview: api/endpoints/activities/overview.md
                 - Request and Response Examples: api/endpoints/activities/examples.md
-                - API Docs: api/endpoints/activities/docs.md
             - Critical Path:
                 - Overview: api/endpoints/critical_path/overview.md
                 - Request and Response Examples: api/endpoints/critical_path/examples.md
-                - API Docs: api/endpoints/critical_path/docs.md
             - Authentication:
                 - Overview: api/endpoints/authentication/overview.md
                 - Request and Response Examples: api/endpoints/authentication/examples.md
-                - API Docs: api/endpoints/authentication/docs.md
+        - Internal Classes: 
+            - Configuration: 
+                - AppConfig: api/internal/config/app_config.md
+                - MapperConfig: api/internal/config/mapper_config.md
+        - Services:
+            - Activity Service: api/services/activity_service.md
+            - Project Service: api/services/project_service.md
 
 theme: 
     name: mkdocs
