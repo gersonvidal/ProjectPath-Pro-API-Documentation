@@ -2,39 +2,44 @@ site_name: ProjectPath-Pro API
 site_description: The ProjectPath-Pro API is the backend service designed to calculate critical paths and manage projects, activities, and its critical paths. It allows users to create and persist project data and identify critical tasks to optimize project timelines and resource allocation.
 site_author: Gerson Vidal Alcantara
 
-nav: 
-    - Home: index.md
-    - User Guide:
-        - Introduction: guide/introduction.md
-        - Getting Started: guide/getting_started.md
-    - API Documentation: 
-        - Introduction: api/introduction.md
-        - Endpoints:
-            - Important Considerations: api/endpoints/considerations.md
-            - Projects:
-                - Overview: api/endpoints/projects/overview.md
-                - Request and Response Examples: api/endpoints/projects/examples.md
-            - Activities:
-                - Overview: api/endpoints/activities/overview.md
-                - Request and Response Examples: api/endpoints/activities/examples.md
-            - Critical Path:
-                - Overview: api/endpoints/critical_path/overview.md
-                - Request and Response Examples: api/endpoints/critical_path/examples.md
-            - Authentication:
-                - Overview: api/endpoints/authentication/overview.md
-                - Request and Response Examples: api/endpoints/authentication/examples.md
-        - Internal Classes: 
-            - Configuration: 
-                - AppConfig: api/internal/config/app_config.md
-                - MapperConfig: api/internal/config/mapper_config.md
-        - Services:
-            - Activity Service: api/services/activity_service.md
-            - Project Service: api/services/project_service.md
+nav:
+  - Home: index.md
+  - User Guide:
+      - Introduction: guide/introduction.md
+      - Getting Started: guide/getting_started.md
+  - API Documentation:
+      - Introduction: api/introduction.md
+      - Endpoints:
+          - Important Considerations: api/endpoints/considerations.md
+          - Projects:
+              - Overview: api/endpoints/projects/overview.md
+              - Request and Response Examples: api/endpoints/projects/examples.md
+          - Activities:
+              - Overview: api/endpoints/activities/overview.md
+              - Request and Response Examples: api/endpoints/activities/examples.md
+          - Critical Path:
+              - Overview: api/endpoints/critical_path/overview.md
+              - Request and Response Examples: api/endpoints/critical_path/examples.md
+          - Authentication:
+              - Overview: api/endpoints/authentication/overview.md
+              - Request and Response Examples: api/endpoints/authentication/examples.md
+      - Internal Classes:
+          - Configuration:
+              - AppConfig: api/internal/config/app_config.md
+              - MapperConfig: api/internal/config/mapper_config.md
+          - Utilities:
+              - CustomStringComparator: api/internal/utils/custom_string_comparator.md
+              - StringValidator: api/internal/utils/string_validator.md
+              - UtilClass: api/internal/utils/util_class.md
+      - Services:
+          - Activity Service: api/services/activity_service.md
+          - Project Service: api/services/project_service.md
+          - Calculation Service: api/services/calculation_service.md
+          - Diagram Service: api/services/diagram_service.md
 
-theme: 
-    name: mkdocs
-    user_color_mode_toggle: true
-
+theme:
+  name: mkdocs
+  user_color_mode_toggle: true
 
 site_url: ""
 use_directory_urls: false
